@@ -126,7 +126,6 @@ body {
   border-bottom-color: transparent;
 }
 
-
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
   border: none;
 }
@@ -178,9 +177,4 @@ body {
 #navbar-underline li:hover {
   padding-bottom: 0;
   border-bottom: 4px solid #00a8f2;
-}
-
-#stacked-menu-heading {
-  background-color: #fff;
-  padding-bottom: 10px;
 }
