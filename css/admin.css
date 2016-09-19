@@ -178,3 +178,7 @@ body {
   padding-bottom: 0;
   border-bottom: 4px solid #00a8f2;
 }
+
+#sidebar {
+  z-index: 100;
+}
