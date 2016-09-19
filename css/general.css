@@ -1,0 +1,48 @@
+.navbar .brand {
+  font-family: inherit;
+  font-size: 35px;
+  font-weight: 600;
+  padding-left: 15px;
+  color: #f6682F;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  display: block;
+  text-transform: uppercase;
+  border-right: 1px solid #e6e6e6;
+  letter-spacing: 0.5px;
+  border-radius: 0px;
+  color: #45494E;
+  text-decoration: none;
+}
+
+#profile-symbol {
+  color: #fff;
+  border: 1px solid #ccc;
+  background-color: #D2D6DF;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #45494E;
+    white-space: nowrap;
+}
+
+.dropdown-menu>li>a:hover {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #45494E;
+    white-space: nowrap;
+}

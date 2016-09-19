@@ -1,0 +1,150 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Test Event <button id="draft"><span style="font-weight:200">Draft</span></button></h2>
+      <h4><span style="color:#666A73;font-weight:200">Wednesday, 26 October 2016 from 7:00 PM to 10:00 PM (PDT)</span></h4>
+    </div>
+    <div class="col-md-6 text-right">
+      <br>
+      <button type="button" class="btn btn-info" id="preview-button">PREVIEW</button>
+      <button type="button" class="btn btn-info" id="live-button">MAKE EVENT LIVE</button>
+    </div>
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col-lg-12" id="admin-navbar">
+    <ul class="nav nav-tabs">
+      <li><a href="#tab1" data-toggle="tab">EDIT</a></li>
+      <li><a href="#tab2" data-toggle="tab">DESIGN</a></li>
+      <li><a href="#tab3" data-toggle="tab">MANAGE</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2" id="sidebar">
+      <br>
+      <!-- // underdevelopment, currently fixing sidebar heading bugs when collapse
+      <ul class="nav nav-pills nav-stacked left-menu pull-left" id="stacked-menu-heading">
+      <li><a data-target="#stacked-menu" data-toggle="collapse">&nbsp;<span style="color:#000;font-weight:200;margin-top:15px;padding-left: 10px;"><span class="glyphicon glyphicon-home" id="home-symbol" aria-hidden="true"></span>&nbsp; Event Dashboard</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li></ul> -->
+      <ul class="nav nav-pills nav-stacked left-menu pull-left" id="stacked-menu">
+        <li><span style="color:#000;font-size:17px;font-weight:200;margin-top:25px;">&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-home" id="home-symbol" aria-hidden="true"></span>&nbsp;<span style="color:#000;font-weight:200;margin-top:15px;"> Event Dashboard</span></li>
+        <li>
+          <a data-target="#item1" data-toggle="collapse" data-parent="#stacked-menu"><span class="glyphicon glyphicon-sort-by-attributes" aria-hidden="true">&nbsp;</span>Order Options&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+          <ul class="nav nav-stacked collapse left-submenu" id="item1">
+            <li><a>Order Form</a></li>
+            <li><a>Order Confirmation</a></li>
+            <li><a>Event Type & Language</a></li>
+            <li><a>Waitlist</a></li>
+          </ul>
+        </li>
+        <li>
+          <a data-target="#item2" data-toggle="collapse" data-parent="#stacked-menu"><span class="glyphicon glyphicon-volume-up" aria-hidden="true">&nbsp;</span>Invite & Promote&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+          <ul class="nav nav-pills nav-stacked collapse" id="item2">
+            <li><a>Publish to Facebook</a></li>
+            <li><a>Email Invitations</a></li>
+            <li><a>Discount & Access Codes</a></li>
+            <li><a>Widgets </a></li>
+            <li><a>Tracking Links</a></li>
+            <li><a>Affiliate Programmes</a></li>
+            <li><a>Social Stream</a></li>
+          </ul>
+        </li>
+        <li>
+          <a data-target="#item3" data-toggle="collapse" data-parent="#stacked-menu"><span class="glyphicon glyphicon-signal" aria-hidden="true">&nbsp;</span>Analyse&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down"></span></a>
+          <ul class="nav nav-pills nav-stacked collapse" id="item3">
+            <li><a>Analytics</a></li>
+            <li><a>Charts</a></li>
+            <li><a>Event Reports</a></li>
+            <li><a>Tracking Pixels</a></li>
+          </ul>
+        </li>
+        <li>
+          <a data-target="#item4" data-toggle="collapse" data-parent="#stacked-menu"><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span>Manage Attendees &nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+          <ul class="nav nav-pills nav-stacked collapse" id="item4">
+            <li><a>Orders</a></li>
+            <li><a>Add Attendees</a></li>
+            <li><a>Emails to Attendees</a></li>
+            <li><a>Guest List</a></li>
+            <li><a>Name Badges</a></li>
+            <li><a>Check-in</a></li>
+          </ul>
+        </li>
+        <li>
+        </li>
+        <li>
+          <a data-target="#item5" data-toggle="collapse" data-parent="#stacked-menu"><span class="glyphicon glyphicon-road" aria-hidden="true">&nbsp;</span> Extensions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down"></span></a>
+          <ul class="nav nav-pills nav-stacked collapse" id="item5">
+            <li><a>SurveyMonkey</a></li>
+            <li><a>Advertising</a></li>
+            <li><a>Waivers & Forms</a></li>
+            <li><a>Custom Printed Tickets</a></li>
+            <li><a>Event Auto-Publish</a></li>
+            <li><a>MailChimp Sync</a></li>
+            <li><a>Facebook Pages</a></li>
+            <li><a>Merchandise</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-9 col-lg-offset-1">
+      <div class="tab-content">
+        <div class="tab-pane" id="tab1">
+          <br />
+          <br />
+          <br />
+          <h2>This is the Edit Section</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="tab-pane" id="tab2">
+          <br />
+          <br />
+          <br />
+          <h2>This is the Design Section</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="tab-pane" class="active" id="tab3">
+          <br />
+          <ol class="breadcrumb pull-right">
+            <li><a>COPY</a></li>
+            <li><a>CANCEL</a></li>
+            <li><a>DELETE</a></li>
+          </ol>
+          <br>
+          <h1>Event Dashboard</h1>
+          <div class="input-group pull-right" id="search-box">
+            <input type="text" class="form-control" placeholder="Find Attendees">
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-4">
+              <span class="glyphicon glyphicon-pencil" id="missing-info-symbol" aria-hidden="true"></span>
+              <p id="admin-content"><span style="font-size:18px;font-weight:bold">&nbsp;Missing info</span><br><br>Your event will be ready to make live as soon as you:
+                <br><br><a>Add tickets to your event</a></p>
+              </div>
+              <div class="col-md-4">
+                <span class="glyphicon glyphicon-globe" id="public-symbol" aria-hidden="true"></span>
+                <p id="admin-content"><span style="font-size:18px;font-weight:bold">&nbsp;Public</span><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="col-md-4">
+                <br>
+                <p id="admin-content"><span style="font-size:14px;font-weight:bolder">0 Tickets Sold / Unlimited</span></p>
+              </div>
+            </div>
+            <br />
+            <!-- Under Development >>
+            <ul class="nav navbar-nav" id="navbar-underline">
+            <li class="active"><a href="#list1" data-toggle="tab"><span>Tickets</span></a></li>
+            <li><a data-target="#list2" data-toggle="collapse" data-parent="#ticket-menu"><span>Visites</span></a></li>
+            <li><a data-target="#list3" data-toggle="collapse" data-parent="#ticket-menu"><span>Invites</span></a></li>
+          </ul> -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+#home-cover {
+  background-image: url(/img/soccer.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -30px;
+}
+
+#home-slogan {
+  color: #fff;
+  padding-top: 13%;
+  padding-bottom: 20%;
+}
+
+#create-button a {
+  text-decoration: none;
+  color: #fff;
+}
+#create-button {
+background-color: #00a8f2;
+}
+
+button.btn {
+    display: inline-block;
+    vertical-align: baseline;
+    color: #fff;
+    border: 0;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
