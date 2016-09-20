@@ -98,6 +98,18 @@ body {
   width: 250px;
 }
 
+#sidebar>ul>li>a  {
+  background-color: #fff;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#stacked-menu-heading {
+  padding-left: 10px;
+  width: 250px;
+  background-color: #fff;
+}
+
 #stacked-menu {
   background-color: #fff;
   padding-left: 10px;
@@ -181,4 +193,9 @@ body {
 
 #sidebar {
   z-index: 100;
+  width: 250px;
+}
+
+#menu-down-symbol {
+  padding-right: 38px;
 }
