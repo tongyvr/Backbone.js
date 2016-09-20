@@ -18,7 +18,7 @@
     <ul class="nav nav-tabs">
       <li><a href="#tab1" data-toggle="tab">EDIT</a></li>
       <li><a href="#tab2" data-toggle="tab">DESIGN</a></li>
-      <li><a href="#tab3" data-toggle="tab">MANAGE</a></li>
+      <li><a href="#tab3" data-toggle="tab" class="active">MANAGE</a></li>
     </ul>
   </div>
 </div>
@@ -29,9 +29,14 @@
       <br>
       <!-- // underdevelopment, currently fixing sidebar heading bugs when collapse -->
       <!-- <ul class="nav nav-pills nav-stacked left-menu pull-left" id="stacked-menu-heading">
-      <li><a data-target="#stacked-menu" data-toggle="collapse">&nbsp;<span style="color:#000;font-weight:200;margin-top:15px;padding-left: 10px;"><span class="glyphicon glyphicon-home" id="home-symbol" aria-hidden="true"></span>&nbsp; Event Dashboard</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li></ul> -->
-      <ul class="nav nav-pills nav-stacked left-menu pull-left" id="stacked-menu">
-        <li><span style="color:#000;font-size:17px;font-weight:200;margin-top:25px;">&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-home" id="home-symbol" aria-hidden="true"></span>&nbsp;<span style="color:#000;font-weight:200;margin-top:15px;"> Event Dashboard</span></li>
+        <li><a data-target="#stacked-menu" data-toggle="collapse">&nbsp;<span style="color:#000;font-weight:200;margin-top:15px;padding-left: 10px;"><span class="glyphicon glyphicon-home" id="home-symbol" aria-hidden="true"></span>&nbsp; Event Dashboard</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
+      </ul> -->
+
+      <ul class="nav nav-pills nav-stacked left-menu pull-left visible-xs hidden-sm hidden-md hidden-lg" id="stacked-menu-heading">
+        <li><a class="navbar-toggle collapsed" data-toggle="collapse" data-target="#stacked-menu" aria-expanded="false">&nbsp;<span style="color:#000;font-weight:200;margin-top:15px;padding-left: 10px;"><span class="glyphicon glyphicon-home" id="home-symbol" aria-hidden="true"></span>&nbsp; Event Dashboard</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
+      </ul>
+      <ul class="nav nav-pills nav-stacked left-menu pull-left collapse navbar-collapse" id="stacked-menu">
+        <li class="hidden-xs visible-lg visible-sm visible-md"><span style="color:#000;font-size:17px;font-weight:200;margin-top:25px;">&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-home" id="home-symbol" aria-hidden="true"></span>&nbsp;<span style="color:#000;font-weight:200;margin-top:15px;"> Event Dashboard</span></li>
         <li>
           <a data-target="#item1" data-toggle="collapse" data-parent="#stacked-menu"><span class="glyphicon glyphicon-sort-by-attributes" aria-hidden="true">&nbsp;</span>Order Options&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
           <ul class="nav nav-stacked collapse left-submenu" id="item1">
